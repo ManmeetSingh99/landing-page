@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { CiMenuBurger } from "react-icons/ci";
+import { CgClose } from "react-icons/cg";
 import logo from "../assets/logo.png";
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -29,7 +30,7 @@ const Navbar = () => {
         </div>
         <div className="lg:hidden md:flex md:flex-col justify-end">
           <button onClick={toggleNavbar}>
-            {mobileDrawerOpen ? <X /> : <Menu />}
+            {mobileDrawerOpen ? <CgClose /> : <CiMenuBurger />}
           </button>
         </div>
       </nav>
