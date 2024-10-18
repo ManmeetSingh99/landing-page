@@ -1,7 +1,6 @@
 import React from "react";
 import code from "../assets/code.jpg";
 import { CiCircleCheck } from "react-icons/ci";
-// import { CircleCheck } from "lucide-react";
 import { checklistItems } from "../constants";
 const Workflow = () => {
   return (

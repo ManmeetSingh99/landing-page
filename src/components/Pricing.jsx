@@ -1,6 +1,8 @@
 import React from "react";
 import { features, pricingOptions } from "../constants";
-import { CircleCheck } from "lucide-react";
+import { CiCircleCheck } from "react-icons/ci";
+
+// import { CircleCheck } from "lucide-react";
 const Pricing = () => {
   return (
     <div>
@@ -36,7 +38,7 @@ const Pricing = () => {
                 {pricingOption.features.map((feature, index) => {
                   return (
                     <li key={index} className="flex flex-row gap-4">
-                      <CircleCheck />
+                      <CiCircleCheck className="size-7" />
                       <span className="sm:text-base md:text-sm lg:text-xl mb-4">
                         {feature}
                       </span>
