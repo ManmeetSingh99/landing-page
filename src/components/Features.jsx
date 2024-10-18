@@ -2,7 +2,7 @@ import React from "react";
 import { features } from "../constants";
 const Features = () => {
   return (
-    <div className="mt-20 min-h-[800px]">
+    <div className="mt-20 min-h-[800px]" id="features">
       <div className="flex flex-col justify-center items-center">
         <h1 className=" font-normal lg:text-6xl md:text-5xl text-4xl">
           FEATURE

@@ -5,7 +5,7 @@ import { CiCircleCheck } from "react-icons/ci";
 // import { CircleCheck } from "lucide-react";
 const Pricing = () => {
   return (
-    <div>
+    <div id="pricing">
       <div>
         <h1 className="text-4xl md:text-5xl lg:text-6xl text-center mt-16 mb-10">
           Pricing
@@ -16,7 +16,7 @@ const Pricing = () => {
           return (
             <div
               key={index}
-              className="border rounded-2xl p-5 md:p-10  border-neutral-700 w-2/4 md:w-1/3 md:h-1/3 lg:w-1/4 :h-[550px] flex flex-col gap-8 items-start"
+              className="border rounded-2xl p-5 md:p-10  border-neutral-700 w-2/3 md:w-1/3 md:h-1/3 lg:w-1/4 :h-[550px] flex flex-col gap-8 items-start"
             >
               <h2 className="text-2xl md:text-3xl lg:text-4xl">
                 {pricingOption.title}

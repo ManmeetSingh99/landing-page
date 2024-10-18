@@ -13,7 +13,7 @@ function App() {
       <Features />
       <Workflow />
       <Pricing />
-      <Testimonials />
+      <Testimonials id="testimonials" />
       <Footer />
     </>
   );

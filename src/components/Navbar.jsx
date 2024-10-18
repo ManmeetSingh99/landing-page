@@ -9,16 +9,16 @@ const Navbar = () => {
   };
   return (
     <div className="sticky top-0 backdrop-blur-lg border-b border-neutral-700/80">
-      <nav className="p-3 pl-10 pr-10 flex flex-row justify-between items-center">
-        <div className="flex items-center gap-3">
+      <nav className="p-3 pl-6  md:pl-10 pr-10 flex flex-row justify-between items-center">
+        <div className="flex items-center gap-1 md:gap-3">
           <img className="w-12 h-14" src={logo} alt="" />
           <h3 className="text-2xl font-semibold">CyberVibe</h3>
         </div>
         <div className="hidden lg:flex lg:gap-10">
-          <a href="">Features</a>
-          <a href="">Workflow</a>
-          <a href="">Pricing</a>
-          <a href="">Testimonials</a>
+          <a href="#features">Features</a>
+          <a href="#workflow">Workflow</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#testimonials">Testimonials</a>
         </div>
         <div className="hidden lg:flex lg:gap-5">
           <button className="bg-transparent text-white border-2 rounded-lg p-2">
@@ -35,12 +35,20 @@ const Navbar = () => {
         </div>
       </nav>
       {mobileDrawerOpen && (
-        <div className="w-full flex lg:hidden flex-col gap-5 justify-center items-center">
-          <a href="">Features</a>
-          <a href="">Workflow</a>
-          <a href="">Pricing</a>
-          <a href="">Testimonials</a>
-          <div className="space-x-20 flex flex-row pl-4 pr-4">
+        <div className="w-full h-screen flex lg:hidden flex-col gap-5  items-center">
+          <a href="#features" onClick={toggleNavbar}>
+            Features
+          </a>
+          <a href="#workflow" onClick={toggleNavbar}>
+            Workflow
+          </a>
+          <a href="#pricing" onClick={toggleNavbar}>
+            Pricing
+          </a>
+          <a href="#testimonials" onClick={toggleNavbar}>
+            Testimonials
+          </a>
+          <div className="space-x-20 flex flex-row pl-4 pr-4 mb-10">
             <button className="bg-transparent text-white border-2 rounded-lg p-2">
               Sign In
             </button>

@@ -4,7 +4,7 @@ import { CiCircleCheck } from "react-icons/ci";
 import { checklistItems } from "../constants";
 const Workflow = () => {
   return (
-    <div>
+    <div id="workflow">
       <div>
         <h1 className="text-4xl font-semibold md:text-5xl lg:text-6xl tracking-wide text-center">
           Accelerate your{" "}

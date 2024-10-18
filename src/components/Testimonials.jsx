@@ -2,7 +2,7 @@ import React from "react";
 import { testimonials } from "../constants";
 const Testimonials = () => {
   return (
-    <div className="mt-20 mb-20">
+    <div className="mt-20 mb-20" id="testimonials">
       <h1 className="text-4xl md:text-6xl w-3/6 text-center mx-auto">
         What people are saying{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">

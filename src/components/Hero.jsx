@@ -22,14 +22,14 @@ const Hero = () => {
           Get started today and turn your imagination into immersive reality!
         </p>
       </div>
-      <div className="flex flex-row gap-5 w-3/5 items-center justify-center">
+      <div className="flex flex-row gap-5 w-4/5 md:w-3/5 items-center justify-center">
         <button
           className="bg-gradient-to-r from-orange-500
-        to-orange-800 p-3 rounded-lg"
+        to-orange-800 p-2 md:p-3 rounded-lg"
         >
           Start for free
         </button>
-        <button className="bg-transparent border-2 p-3 rounded-lg">
+        <button className="bg-transparent border-2 p-2 md:p-3 rounded-lg">
           Documentation
         </button>
       </div>
