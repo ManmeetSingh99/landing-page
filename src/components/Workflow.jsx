@@ -1,6 +1,7 @@
 import React from "react";
 import code from "../assets/code.jpg";
-import { CircleCheck } from "lucide-react";
+import { CiCircleCheck } from "react-icons/ci";
+// import { CircleCheck } from "lucide-react";
 import { checklistItems } from "../constants";
 const Workflow = () => {
   return (
@@ -23,7 +24,7 @@ const Workflow = () => {
           {checklistItems.map((item, index) => {
             return (
               <div key={index} className="flex flex-row gap-8">
-                <CircleCheck className="text-green-500 lg:size-7" />
+                <CiCircleCheck className="text-green-500 lg:size-7" />
                 <div className="mb-12">
                   <div className=" text-xl lg:text-2xl mb-3">{item.title}</div>
                   <div className="text-gray-400">{item.description}</div>
