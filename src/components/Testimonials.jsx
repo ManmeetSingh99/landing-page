@@ -6,7 +6,7 @@ const Testimonials = () => {
       <h1 className="text-4xl md:text-6xl w-3/6 text-center mx-auto">
         What people are saying{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
-          about VirtualR
+          about CyberVibe
         </span>
       </h1>
       <div className="flex flex-wrap justify-center w-4/5 mx-auto gap-10 mt-20">

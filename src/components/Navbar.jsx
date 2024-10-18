@@ -12,7 +12,7 @@ const Navbar = () => {
       <nav className="p-3 pl-10 pr-10 flex flex-row justify-between items-center">
         <div className="flex items-center gap-3">
           <img className="w-12 h-14" src={logo} alt="" />
-          <h3 className="text-2xl font-semibold">VirtualR</h3>
+          <h3 className="text-2xl font-semibold">CyberVibe</h3>
         </div>
         <div className="hidden lg:flex lg:gap-10">
           <a href="">Features</a>
